@@ -12,6 +12,8 @@
 		ACCE12372131C4AD0004FD3C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACCE12352131C4AD0004FD3C /* Main.storyboard */; };
 		ACCE12392131C4AE0004FD3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACCE12382131C4AE0004FD3C /* Assets.xcassets */; };
 		ACCE123C2131C4AE0004FD3C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACCE123A2131C4AE0004FD3C /* LaunchScreen.storyboard */; };
+		ACCE12442131C6450004FD3C /* AnimalTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCE12432131C6450004FD3C /* AnimalTableViewController.swift */; };
+		ACCE12462131C9930004FD3C /* Aviso.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCE12452131C9930004FD3C /* Aviso.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		ACCE12382131C4AE0004FD3C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ACCE123B2131C4AE0004FD3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ACCE123D2131C4AE0004FD3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACCE12432131C6450004FD3C /* AnimalTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalTableViewController.swift; sourceTree = "<group>"; };
+		ACCE12452131C9930004FD3C /* Aviso.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aviso.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,8 @@
 				ACCE12312131C4AD0004FD3C /* AppDelegate.swift */,
 				ACCE12332131C4AD0004FD3C /* ViewController.swift */,
 				ACCE12352131C4AD0004FD3C /* Main.storyboard */,
+				ACCE12432131C6450004FD3C /* AnimalTableViewController.swift */,
+				ACCE12452131C9930004FD3C /* Aviso.swift */,
 				ACCE12382131C4AE0004FD3C /* Assets.xcassets */,
 				ACCE123A2131C4AE0004FD3C /* LaunchScreen.storyboard */,
 				ACCE123D2131C4AE0004FD3C /* Info.plist */,
@@ -135,6 +141,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACCE12462131C9930004FD3C /* Aviso.swift in Sources */,
+				ACCE12442131C6450004FD3C /* AnimalTableViewController.swift in Sources */,
 				ACCE12342131C4AD0004FD3C /* ViewController.swift in Sources */,
 				ACCE12322131C4AD0004FD3C /* AppDelegate.swift in Sources */,
 			);
