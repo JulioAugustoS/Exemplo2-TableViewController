@@ -24,5 +24,24 @@ class Aviso: NSObject {
         sender.present(alerta, animated:true, completion:nil)
         
     }
+    
+    static func mensagemExcluir(msg:String, sender:AnyObject){
+        let alerta = UIAlertController(
+            title: "Alerta!",
+            message: msg,
+            preferredStyle: UIAlertControllerStyle.actionSheet)
+        
+        alerta.addAction(UIAlertAction(
+            title: "Sim",
+            style: UIAlertActionStyle.default,
+            handler: nil))
+        
+        alerta.addAction(UIAlertAction(
+            title: "Não",
+            style: UIAlertActionStyle.default,
+            handler: nil))
+        
+        sender.present(alerta, animated:true, completion:nil)
+    }
 
 }
